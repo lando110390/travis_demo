@@ -28,6 +28,7 @@ class HelloWorld
     }
 
     public function test() {
+	echo $abc;
     	echo "hello guy - Test";
     }
 }
