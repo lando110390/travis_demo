@@ -26,4 +26,8 @@ class HelloWorld
         $stmt = $this->pdo->query($sql);
         return $stmt->fetchColumn();
     }
+
+    public function test() {
+    	echo "hello guy";
+    }
 }
