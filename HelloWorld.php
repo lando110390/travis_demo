@@ -28,6 +28,7 @@ class HelloWorld
     }
 
     public function test() {
+	$this->test2();
 	echo $abc;
     	echo "hello guy - Test";
     }
